@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <style>
+            td {
+               padding-top: 10px; 
+            }
+            input[type=select] {
+                padding-left: 10px; 
+            }
+            input[type=sumbit] { 
+    text-align: center;
+    background-color: lightgray 
+}
+            textarea { 
+    text-align: center;
+    vertical-align: -15px
+}
+
+
+    </style>
+    <link href="restaurantStyles.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <center>
+        <h1>Lasagna Heaven</h1>
+        </center>
+        <hr/>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact Us</a><hr/>
+        <center>
+        <form action="#" method="post">
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <p></p>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <table>
+                        <tr>
+                            <td>Reason for Inquiry:</td>
+                            <td><select name="Inquiry">
+                                <option value="Catering">Catering</option>
+                                <option value="Private Party">Private Party</option>
+                                <option value="Feedback">Feedback</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            </td>
+                        </tr>
+                    </table>
+                </tr>
+                <br/>
+                <tr>
+                    Additional Information:
+                    <td><textarea name="Additional Information"></textarea>
+                </tr>
+                <p></p>
+                <tr>
+                    <td>Have you been to the restaurant?</td>
+                    <td><input type="radio" name"NoYes" value="No" checked/>No</td>
+                    <td><input type="radio" name"NoYes" value="Yes" checked/>Yes</td>
+                </tr>
+                <p></p>
+                <tr>
+                    Best days to contact you:
+                    <td><input type="checkbox" id="Mon"/>M</td>
+                    <td><input type="checkbox" id="Tues"/>T</td>
+                    <td><input type="checkbox" id="Wed"/>W</td>
+                    <td><input type="checkbox" id="Thur"/>T</td>
+                    <td><input type="checkbox" id="Fri"/>F</td>
+                </tr>
+                <p></p>
+                <tr>
+                    <td><input type="sumbit" value="Send Request"></td>
+                </tr>
+            </table>
+        </form>
+        <hr/>
+        <p>
+        1234 Lasagna RD, Lasagna City, New York, 10001<br/>
+        123-345-6789
+        </p>
+    </body>
+</html>
