@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Lasagna Heaven</title>
         <style>
             blockquote {
@@ -10,40 +13,59 @@
             table {
                 border: 1px solid black;
             }
-            div {
+            #indexcenter {
                 background-color: lightgoldenrodyellow 
             }
         </style>
-        <link href="restaurantStyles.css" rel="stylesheet" type="text/css"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="tex/css">
+        <link href="restaurantStyles.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
     </head>
     <body>
-        <center><h1>Lasagna Heaven</h1></center><hr/>
-        <left>
-            <a href="index.html">Home</a>
-            <a href="menu.html">Menu</a>
-            <a href="contact.html">Contact Us</a>
-            <br/>
-        </left><hr/>
-        <div>
-            <center><img src="images\lasagna.jpg" border="2" height="301.5" width="540"><br/>
-            <center>  
-                <table border="0">
-                    <tr>
-                        <td>Do you crave all the lasagna you can eat? What about all the lasagna you can take<br/>
-                        home? If so, this is the place for you! Lasagna Heaven makes nothing but lasagna.<br/>
-                        They have lasagna drinks, lasagna apetizers, and lasagna desserts. Bring the<br/>
-                        the whole family for lasagna of all types! Make sure to try all our different<br/>
-                        types of lasagna!</td>
-                    </tr>
-                </table>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <center><h1>Lasagna Heaven</h1></center>
+                    <left>
+                        <div class="container">
+                            <div class="jumbotron">
+                                <h2>New Location Opening Soon!</h2>
+                            <div class="pills"><hr/>
+                                    <ul class="nav nav-pills">
+                                        <li class="active"><a href="index.html">Home</a></li>
+                                        <li><a href="menu.html">Menu</a></li>
+                                        <li><a href="contact.html">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>    
+                        <br/>
+                </div>
+                <div class="col-sm-4">
+                    </left><hr/>
+                    <div id="indexcenter">
+                        <center><img src="images\lasagna.jpg" border="2" height="301.5" width="540"><br/>
+                        <center>  
+                            <table border="0">
+                                <tr>
+                                    <td>Do you crave all the lasagna you can eat? What about all the lasagna you can take<br/>
+                                    home? If so, this is the place for you! Lasagna Heaven makes nothing but lasagna.<br/>
+                                    They have lasagna drinks, lasagna apetizers, and lasagna desserts. Bring the<br/>
+                                    the whole family for lasagna of all types! Make sure to try all our different<br/>
+                                    types of lasagna!</td>
+                                </tr>
+                            </table>
+                        </div>
+                    <center>
+                        <hr/>
+                        <p>
+                        1234 Lasagna RD, Lasagna City, New York, 10001<br/>
+                        123-345-6789
+                        </p>
+                    </center>
+                </div>
             </div>
-        <center>
-            <hr/>
-            <p>
-            1234 Lasagna RD, Lasagna City, New York, 10001<br/>
-            123-345-6789
-            </p>
-        </center>
-
+        </div>
     </body>
 </html>

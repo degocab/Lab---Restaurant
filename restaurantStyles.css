@@ -1,10 +1,37 @@
 h1{color: darkblue ; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 p{color: darkblue}
-h2{font-size: x-large}
+h2{font-size: x-large; color: darkblue;}
 h3{color: darkblue; font-size: x-large; text-decoration: underline;}
 a:link{text-decoration: none; color: black}
 a:visited{text-decoration: none; color: red}
 a:hover{text-decoration: underline; font-weight: bold;}
 a:active{text-decoration: none;}
-
 #beverage{text-align: left}
+ul{list-style-type: none; margin: 0; padding: 0;}
+li{display: inline}
+.pills {
+    width:100%;
+    display:inline-block;
+}
+    .nav-pills li {
+        margin:0px 5px;
+        float:left;
+        list-style:none;
+    }
+
+        .nav-pills a {
+            padding:9px 15px;
+            display:inline-block;
+            border-radius:3px 3px 0px 0px;
+            background:#7FB5DA;
+            font-size:16px;
+            font-weight:600;
+            color:#4c4c4c;
+        }
+
+
+    li.active a, li.active {
+        background:#fff;
+        color:#4c4c4c;
+    }
+.jumbotron{text-align: center;}
