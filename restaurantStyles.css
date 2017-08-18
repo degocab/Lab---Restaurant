@@ -2,10 +2,13 @@ h1{color: darkblue ; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Aria
 p{color: darkblue}
 h2{font-size: x-large; color: darkblue;}
 h3{color: darkblue; font-size: x-large; text-decoration: underline;}
-a:link{text-decoration: none; color: black}
+.indexpage{background-color: lightgoldenrodyellow}
+#indexcenter{background-color: lightgoldenrodyellow; height: 100%; margin: auto;}
+.tdmenu{color: darkred; width: 400px;}
+/*a:link{text-decoration: none; color: black}
 a:visited{text-decoration: none; color: red}
 a:hover{text-decoration: underline; font-weight: bold;}
-a:active{text-decoration: none;}
+a:active{text-decoration: none;}*/
 #beverage{text-align: left}
 ul{list-style-type: none; margin: 0; padding: 0;}
 li{display: inline}
@@ -34,4 +37,6 @@ li{display: inline}
         background:#fff;
         color:#4c4c4c;
     }
-.jumbotron{text-align: center;}
+.jumbotron{text-align: center; background-color:transparent}
+.table{width: 100%; max-width: 100%; margin-bottom: 20px}
+.table-responsive{width: 100%; overflow-x: auto; overflow-y: hidden; -webkit-overflow-scrolling: touch; -ms-overflow-style: -ms-autohiding-scrollbar;}
