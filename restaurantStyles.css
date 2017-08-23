@@ -33,12 +33,12 @@ li{display: inline}
         }
 
 
-    li.active a, li.active {
+    /*li.active a, li.active {
         background:#fff;
         color:#4c4c4c;
-    }
+    }*/
 .jumbotron{text-align: center; background-color:transparent}
 .table{width: 100%; max-width: 100%; margin-bottom: 20px}
 .table-responsive{width: 100%; overflow-x: auto; overflow-y: hidden; -webkit-overflow-scrolling: touch; -ms-overflow-style: -ms-autohiding-scrollbar;}
-.carousel{background-color:#7FB5DA; margin: 0px; text-align: center}
+.carousel{background-color:#7FB5DA; margin: 0px; text-align: center;}
 h4{text-transform: uppercase}
